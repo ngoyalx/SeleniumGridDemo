@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Tests" duration-ms="6784" started-at="2016-09-21T09:38:42Z" finished-at="2016-09-21T09:38:48Z">
+    <groups>
+    </groups>
+    <test name="Mac+Chrome Test" duration-ms="4643" started-at="2016-09-21T09:38:42Z" finished-at="2016-09-21T09:38:46Z">
+      <class name="demo.SeGridTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:demo.SeGridTest@506e6d5e]" name="setup" is-config="true" duration-ms="4272" started-at="2016-09-21T15:08:42Z" finished-at="2016-09-21T15:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBmiCalculator()[pri:0, instance:demo.SeGridTest@506e6d5e]" name="testBmiCalculator" duration-ms="284" started-at="2016-09-21T15:08:46Z" description="Test Bmi Calculator" finished-at="2016-09-21T15:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.SeGridTest@506e6d5e]" name="afterTest" is-config="true" duration-ms="79" started-at="2016-09-21T15:08:46Z" finished-at="2016-09-21T15:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.SeGridTest -->
+    </test> <!-- Mac+Chrome Test -->
+    <test name="Mac+Firefox Test" duration-ms="6747" started-at="2016-09-21T09:38:42Z" finished-at="2016-09-21T09:38:48Z">
+      <class name="demo.SeGridTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:demo.SeGridTest@2d209079]" name="setup" is-config="true" duration-ms="6378" started-at="2016-09-21T15:08:42Z" finished-at="2016-09-21T15:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBmiCalculator()[pri:0, instance:demo.SeGridTest@2d209079]" name="testBmiCalculator" duration-ms="273" started-at="2016-09-21T15:08:48Z" description="Test Bmi Calculator" finished-at="2016-09-21T15:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.SeGridTest@2d209079]" name="afterTest" is-config="true" duration-ms="91" started-at="2016-09-21T15:08:48Z" finished-at="2016-09-21T15:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.SeGridTest -->
+    </test> <!-- Mac+Firefox Test -->
+    <test name="Mac+Safari Test" duration-ms="6784" started-at="2016-09-21T09:38:42Z" finished-at="2016-09-21T09:38:48Z">
+      <class name="demo.SeGridTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:demo.SeGridTest@35f983a6]" name="setup" is-config="true" duration-ms="6560" started-at="2016-09-21T15:08:42Z" finished-at="2016-09-21T15:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBmiCalculator()[pri:0, instance:demo.SeGridTest@35f983a6]" name="testBmiCalculator" duration-ms="160" started-at="2016-09-21T15:08:48Z" description="Test Bmi Calculator" finished-at="2016-09-21T15:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.SeGridTest@35f983a6]" name="afterTest" is-config="true" duration-ms="60" started-at="2016-09-21T15:08:48Z" finished-at="2016-09-21T15:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.SeGridTest -->
+    </test> <!-- Mac+Safari Test -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>

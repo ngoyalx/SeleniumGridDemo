@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Parallel Tests]" parallel="tests">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="platform" value="Mac"/>
+  <test name="Mac+Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="platform" value="Mac"/>
+    <classes>
+      <class name="demo.SeGridTest">
+        <methods>
+          <include name="testBmiCalculator"/>
+        </methods>
+      </class> <!-- demo.SeGridTest -->
+    </classes>
+  </test> <!-- Mac+Firefox Test(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->

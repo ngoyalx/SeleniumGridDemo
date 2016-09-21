@@ -1,0 +1,34 @@
+<suite name="Parallel Tests" verbose="1" thread-count="4"
+	parallel="tests">
+
+	<tests>
+		
+		 <test name="Mac+Firefox Test">
+			<parameters>
+				<parameter name="platform" value="Mac" />
+				<parameter name="browser" value="Firefox" />
+			</parameters>
+			<classes>
+				<class name="demo.SeGridTest" />
+			</classes>
+		</test> 
+		 <test name="Mac+Chrome Test">
+			<parameters>
+				<parameter name="platform" value="Mac" />
+				<parameter name="browser" value="Chrome" />
+			</parameters>
+			<classes>
+				<class name="demo.SeGridTest" />
+			</classes>
+		</test>
+		<test name="Mac+Safari Test">
+			<parameters>
+				<parameter name="platform" value="Mac" />
+				<parameter name="browser" value="Safari" />
+			</parameters>
+			<classes>
+				<class name="demo.SeGridTest" />
+			</classes>
+		</test>
+	</tests>
+</suite>
