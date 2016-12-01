@@ -19,6 +19,8 @@
 			<artifactId>selenium-server</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
+		
+		
 		<!-- testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -26,5 +28,14 @@
 			<version>${testng.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+			<!-- Appium -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		
+		
 	</dependencies>
 </project>
