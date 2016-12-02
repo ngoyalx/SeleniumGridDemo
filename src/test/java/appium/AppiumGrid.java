@@ -21,9 +21,9 @@ public class AppiumGrid {
     protected void createAppiumDriver() throws MalformedURLException, InterruptedException {
  
     //relative path to apk file
-    final File classpathRoot = new File(System.getProperty("user.dir"));
+   /* final File classpathRoot = new File(System.getProperty("user.dir"));
     final File appDir = new File(classpathRoot, "src/test/resources/apps/");
-    final File app = new File(appDir, "ApiDemos-debug.apk");
+    final File app = new File(appDir, "ApiDemos-debug.apk");*/
     //final File app = new File(appDir, "selendroid-test-app-0.17.0.apk");  //to test hybrid app
  
     //setting up desired capability
@@ -32,10 +32,10 @@ public class AppiumGrid {
     caps.setCapability("platform", "ANDROID");
     caps.setCapability("platformVersion", "6.0");
     caps.setCapability("deviceName", "ANDROID");
-    caps.setCapability("app", app.getAbsolutePath());
- 
+    //caps.setCapability("app", app.getAbsolutePath());
+    caps.setCapability("app","/Users/sheetalsingh/Documents/workspace/SeleniumGridDemo/src/test/resources/apps/ApiDemos-debug.apk");
     //initializing driver object
-    driver = new AndroidDriver(new URL("http://0.0.0.0:4444/wd/hub"), caps);
+    driver = new AndroidDriver(new URL("http://0.0.0.0:4441/wd/hub"), caps);
  
     //initializing explicit wait object
     wait = new WebDriverWait(driver, 10);

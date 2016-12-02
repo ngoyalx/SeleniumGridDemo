@@ -1,13 +1,11 @@
 package appium;
 
 import java.sql.Connection;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
-
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.SwipeElementDirection;
@@ -15,7 +13,7 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.AndroidKeyCode;
 
-public class SampleTestCase extends AppiumDriverBase {
+public class SampleTestCase extends AppiumGrid {
 
 	// Test Annotation changes any java function to TestNG test case
 	@Test
