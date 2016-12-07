@@ -17,9 +17,11 @@ public class SampleTestCase extends AppiumGrid {
 
 	// Test Annotation changes any java function to TestNG test case
 	@Test
-	public void sampeTest() {
+	public void sampeTest() throws InterruptedException {
 
+		try{
 		// click on Accessibility link
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId("Accessibility")));
 		driver.findElement(MobileBy.AccessibilityId("Accessibility")).click();
 
@@ -33,6 +35,9 @@ public class SampleTestCase extends AppiumGrid {
 
 		// back
 		driver.navigate().back();
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 
 }
